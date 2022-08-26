@@ -1,5 +1,4 @@
-﻿Flask
+Flask
 numpy
-pickle
 joblib
 pandas
