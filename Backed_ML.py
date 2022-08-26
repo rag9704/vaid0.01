@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import pandas as pd
 import joblib
-model = joblib.load("/Users/rag9704/Downloads/decision_tree.joblib")
+model = joblib.load("decision_tree.joblib")
 app = Flask(__name__)
 @app.route('/')
 def index():
